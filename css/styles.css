@@ -319,13 +319,13 @@ ul.tabs li {
   background-color: transparent !important;
 }
 
-.sign-up-section label {
+#mc_embed_signup label {
   display: block;
   margin-bottom: .5em;
   color: #212121;
 }
 
-.sign-up-section .button {
+#mc_embed_signup .button {
   background-color: transparent;
   border: 1px solid #212121;
   color: #212121;
