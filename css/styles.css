@@ -84,6 +84,14 @@ ul.tabs li {
   margin-bottom: 1.5em;
 }
 
+@media screen and (min-width:64.0625em){
+
+  .insta-section img {
+    margin-bottom: 0;
+  }
+
+}
+
 
 /* BREADCRUMBS */
 
