@@ -1,0 +1,25 @@
+
+
+- use of comments
+- use of breadcrumbs
+
+- process of making main copies of templates with all working links
+
+- adding google fonts (watch the weight)
+
+- adding google analytics
+
+- posting to github
+
+- using a custom url (optional)
+
+- robots/hide
+
+- folder organization
+	- urls
+	- page titles
+	- file paths
+	- no need for file name when it is an index
+
+- lots more code with very specific linking = easy to mess up
+	- team needs to do q/a
