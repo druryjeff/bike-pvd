@@ -336,5 +336,6 @@ ul.tabs li {
 #map {
   height: 400px;
   width: 100%;
+  margin-bottom: 1em;
 }
 
