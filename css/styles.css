@@ -79,6 +79,11 @@ ul.tabs li {
   font-weight: 700;
 }
 
+.insta-section img {
+  display: block;
+  margin-bottom: 1.5em;
+}
+
 
 /* BREADCRUMBS */
 
@@ -206,15 +211,19 @@ ul.tabs li {
   font-family: 'Titillium Web', sans-serif;
 }
 
-.main-content aside {
-  text-align: right;
-}
-
 .main-content aside h3 {
   padding-top: 1em;
   margin-bottom: .5em;
   font-size: 1em;
   text-transform: uppercase;
+}
+
+@media screen and (min-width:64.0625em){
+
+  .main-content aside {
+    text-align: right;
+  }
+
 }
 
 
