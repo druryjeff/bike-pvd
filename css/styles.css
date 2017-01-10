@@ -6,6 +6,21 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1 {
-  font-family: 'Titillium Web', sans-serif;
+
+.top-bar-section .has-dropdown > a {
+  text-align: center;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button),
+.top-bar-section .has-dropdown > a {
+  padding: 0 20px !important;	
+}
+
+.top-bar-section .has-dropdown > a::after {
+  border: none;
+}
+
+#map {
+  height: 400px;
+  width: 100%;
 }
