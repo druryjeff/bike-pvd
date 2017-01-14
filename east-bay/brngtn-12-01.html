@@ -71,6 +71,19 @@
           <h1>Barrington Waterfront(s)</h1>
           <h5>12 miles</h5>
           <div id="map"></div>
+          <script>
+          function initMap() {
+            var uluru = {lat: 41.737406, lng: -71.323055};
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 12,
+                center: uluru
+            });
+            var marker = new google.maps.Marker({
+                position: uluru,
+                map: map
+            });
+          }
+          </script>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis. Suspendisse urna nibh, viverra non, semper suscipit, posuere a, pede.</p>
         </div>
         <div class="large-3 columns">
