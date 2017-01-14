@@ -51,12 +51,16 @@ ul {
 }
 
 ul.tabs {
-    text-align: center;
+  text-align: center;
 }
 
 ul.tabs li {
-    float: none !important;
-    display: inline-block;
+  float: none !important;
+  display: inline-block;
+}
+
+ul.tabs .tab-title > a {
+  font-family: 'Titillium Web', sans-serif;
 }
 
 
