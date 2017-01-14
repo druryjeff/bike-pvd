@@ -247,14 +247,12 @@ ul.tabs .tab-title > a {
 }
 
 .map-block h4 {
-  display: inline-block;
   font-size: 1.125em;
   text-transform: uppercase;
   font-weight: 700;
 }
 
 .map-block h5 {
-  display: inline-block;
   font-size: 1em;
   text-transform: uppercase;
   color: #999;
